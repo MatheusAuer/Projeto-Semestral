@@ -8,44 +8,73 @@
     <header>
         <h1>Produtos</h1>
     </header>
+    <a href="#">Ver carrinho</a>
     <div id="cards">
         <div class="card1">
             <div class="card-img">
                 <img src="C:\xampp\htdocs\img\whey.png" />
             </div>
-            <div class="desc" id="nomeus">Whey Protein R$129,90</div>
+            <div class="desc" id="nomeus">Whey Gold Standard Isolado R$129,90
+            </div>
             <div class="botao">
-                <a href="#" onclick="">Entrar</a> 
+                <a href="#" onclick="produto.salvar()">Comprar</a> 
             </div>
         </div>
         <div class="card1">
             <div class="card-img">
-                <img src="img/paisagem.jpg" />
+                <img src="C:\xampp\htdocs\img\universal.png" />
             </div>
-            <div class="desc" id="nomeus">Creatina R$69,90</div>
+            <div class="desc" id="nomeus">Creatina Universal R$69,90</div>
             <div class="botao">
-                <a href="#" onclick="">Entrar</a>
+                <a href="#" onclick="produto.salvar()">Comprar</a>
             </div>
         </div>
         <div class="card1">
             <div class="card-img">
-                <img src="img/som.jpg" />
+                <img src="C:\xampp\htdocs\img\albumina.png" />
             </div>
-            <div class="desc">
-                Músicas
-            </div>
+            <div class="desc" id="nomeus">Albumina Naturovos R$29,90</div>
             <div class="botao">
-                <a href="#">Entrar</a>
+                <a href="#" onclick="produto.salvar()">Comprar</a>
             </div>
-            <script>
-                var carrinho = [];
-                var nome = document.getElementById("nomeus").innerHTML;
-                for(var i=0; i<carrinho.length;i++){
-                    carrinho.push(nome);
-                }
-                alert(carrinho);
-            </script>
         </div>
+        <div class="card1">
+            <div class="card-img">
+                <img src="C:\xampp\htdocs\img\bcaa.png" />
+            </div>
+            <div class="desc" id="nomeus">BCAA Darkness R$39,90</div>
+            <div class="botao">
+                <a href="#" onclick="produto.salvar()">Comprar</a>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="card-img">
+                <img src="C:\xampp\htdocs\img\prohibido.png" />
+            </div>
+            <div class="desc" id="nomeus">Pré Treino Prohibido R$89,90</div>
+            <div class="botao">
+                <a href="#" onclick="produto.salvar()">Comprar</a>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="card-img">
+                <img src="C:\xampp\htdocs\img\integral.png" />
+            </div>
+            <div class="desc" id="nomeus">Whey IntegralMédica R$99,90</div>
+            <div class="botao">
+                <a href="#" onclick="produto.salvar()">Comprar</a>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="card-img">
+                <img src="C:\xampp\htdocs\img\creaint.png" />
+            </div>
+            <div class="desc" id="nomeus">Creatina IntegralMédica R$49,90</div>
+            <div class="botao">
+                <a href="#" onclick="produto.salvar()">Comprar</a>
+            </div>
+        </div>
+        
 
     </div>
 
