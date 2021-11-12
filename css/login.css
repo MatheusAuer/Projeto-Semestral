@@ -1,0 +1,11 @@
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://runnersworld.com.br/wp-content/uploads/sites/4/2019/09/melhor-horario-para-treino-de-forca-1280x720.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+}

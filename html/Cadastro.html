@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="C:\xampp\htdocs\css\cadastro.css"/>
+        <title>Cadastro</title>
+    </head>
+<body>
+    <div class="registroformulario">
+        <h1>Formulário de Cadastro</h1>
+    </div>
+    <div class="conteudo">
+        <form>
+            <div id="nome">
+                <h2 class="nome">Nome e Sobrenome</h2>
+                <input class="primeironome" type="text" name="Nome" required>
+                <label class="labelnome">Nome</label>
+                <input class="sobrenome" type="text" name="sobrenome" required>
+                <label class="labelsobrenome">Sobrenome</label>
+            </div>
+            <h2 class="nome">Senha</h2>
+            <input class="endereço" type="password" name="senha" required>
+            <h2 class="nome">Email</h2>
+            <input class="email" type="email" name="email" required>
+            <h2 class="nome">Telefone (DDD+Número)</h2>
+            <input class="codigo" type="text" name="area" required>
+            <label class="area">DDD</label>
+            <input class="numero" type="text" name="telefone" required>
+            <label class="numero-telefone">Telefone</label> 
+            <h2 class="nome">Sexo</h2>
+            <select class="opcoes" name="assunto">
+                <option disabled="disabled" selected="selected">Selecione a opção</option>
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Outro</option>
+            </select>
+            <h2 id="idade">Você é maior de idade? (18+)</h2>
+            <label class="radio">
+                <input class="radio-1" type="radio" name="radio" checked="checked" name="">
+                <span class="checar"></span>
+                Sim
+            </label>
+            <label class="radio">
+                <input class="radio-2" type="radio" name="radio" checked="checked" name="">
+                <span class="checar"></span>
+                Não
+            </label>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
