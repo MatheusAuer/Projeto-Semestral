@@ -1,0 +1,53 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="C:\xampp\htdocs\css\produtos.css">
+    <script src="C:\xampp\htdocs\js\scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Produtos</h1>
+    </header>
+    <div id="cards">
+        <div class="card1">
+            <div class="card-img">
+                <img src="C:\xampp\htdocs\img\whey.png" />
+            </div>
+            <div class="desc" id="nomeus">Whey Protein R$129,90</div>
+            <div class="botao">
+                <a href="#" onclick="">Entrar</a> 
+            </div>
+        </div>
+        <div class="card1">
+            <div class="card-img">
+                <img src="img/paisagem.jpg" />
+            </div>
+            <div class="desc" id="nomeus">Creatina R$69,90</div>
+            <div class="botao">
+                <a href="#" onclick="">Entrar</a>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="card-img">
+                <img src="img/som.jpg" />
+            </div>
+            <div class="desc">
+                Músicas
+            </div>
+            <div class="botao">
+                <a href="#">Entrar</a>
+            </div>
+            <script>
+                var carrinho = [];
+                var nome = document.getElementById("nomeus").innerHTML;
+                for(var i=0; i<carrinho.length;i++){
+                    carrinho.push(nome);
+                }
+                alert(carrinho);
+            </script>
+        </div>
+
+    </div>
+
+</body>
+</html>
